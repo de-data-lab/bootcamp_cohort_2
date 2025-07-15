@@ -36,3 +36,13 @@ The data you have access to includes the following:
 * Transportation accessibility data
 * Healthcare infrastructure data
 
+# Try this scenario yourself
+
+## Education
+You are a leader at a nonprofit organization focused on providing educational resources to underprivileged children. Recently, you've noticed a decline in student engagement and attendance in your after-school programs.
+
+The data you have access to includes the following:
+
+* Attendance records
+* Daily activity schedules
+* Satisfaction survey data for activities
