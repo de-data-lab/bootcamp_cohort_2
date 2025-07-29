@@ -23,16 +23,16 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="module_01_files/libs/clipboard/clipboard.min.js"></script>
+<script src="module_01_files/libs/quarto-html/quarto.js"></script>
+<script src="module_01_files/libs/quarto-html/popper.min.js"></script>
+<script src="module_01_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="module_01_files/libs/quarto-html/anchor.min.js"></script>
+<link href="module_01_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="module_01_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="module_01_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="module_01_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="module_01_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <style>
 
       .quarto-title-block .quarto-title-banner {
@@ -49,6 +49,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title"><p><img src="techimpact_whitelogo_20190813.png" alt="Logo" style="height:60px;"> <br> Nonprofit Data Bootcamp</p></h1>
+            <p class="subtitle lead">Cohort 2.0</p>
                       </div>
   </div>
     
@@ -63,23 +64,81 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/index.html"><i class="bi bi-link-45deg"></i>Main</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_01.html"><i class="bi bi-link-45deg"></i>Module 01</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_02.html"><i class="bi bi-link-45deg"></i>Module 02</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_03.html"><i class="bi bi-link-45deg"></i>Module 03</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_04.html"><i class="bi bi-link-45deg"></i>Module 04</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_05.html"><i class="bi bi-link-45deg"></i>Module 05</a></li></ul></div></div>
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#module-1-what-is-possible" id="toc-module-1-what-is-possible" class="nav-link active" data-scroll-target="#module-1-what-is-possible">Module 1: What is possible?</a></li>
+  <li><a href="#scenario-for-the-full-team" id="toc-scenario-for-the-full-team" class="nav-link" data-scroll-target="#scenario-for-the-full-team">Scenario for the full team</a>
+  <ul class="collapse">
+  <li><a href="#healthcare" id="toc-healthcare" class="nav-link" data-scroll-target="#healthcare">Healthcare</a></li>
+  </ul></li>
+  <li><a href="#try-this-scenario-yourself" id="toc-try-this-scenario-yourself" class="nav-link" data-scroll-target="#try-this-scenario-yourself">Try this scenario yourself</a>
+  <ul class="collapse">
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/index.html"><i class="bi bi-link-45deg"></i>Main</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_01.html"><i class="bi bi-link-45deg"></i>Module 01</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_02.html"><i class="bi bi-link-45deg"></i>Module 02</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_03.html"><i class="bi bi-link-45deg"></i>Module 03</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_04.html"><i class="bi bi-link-45deg"></i>Module 04</a></li><li><a href="https://de-data-lab.github.io/bootcamp_cohort_2/module_05.html"><i class="bi bi-link-45deg"></i>Module 05</a></li></ul></div></nav>
+</div>
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>Navigate to the following pages during the corresponding activities:</p>
+<section id="module-1-what-is-possible" class="level1">
+<h1>Module 1: What is possible?</h1>
+<p>You will be provided with a scenario in which a nonprofit organization needs to make a decision about a challenge it is facing. Consider the types of analysis (descriptive, diagnostic, predictive, prescriptive, and generative) that we discussed.</p>
+<p>Discuss these questions for the scenario:</p>
+<ol type="1">
+<li>What types of analysis would you make with the data available to you?</li>
+</ol>
+<blockquote class="blockquote">
 <ul>
-<li><a href="index.html">Main Page</a></li>
-<li><a href="module_01.html">Module 1 Activities</a></li>
-<li><a href="module_02.html">Module 2 Activities</a></li>
-<li><a href="module_03.html">Module 3 Activities</a></li>
-<li><a href="module_04.html">Module 4 Activities</a></li>
-<li><a href="module_05.html">Module 5 Activities</a></li>
+<li><strong>Descriptive</strong> - what have we done in the past?</li>
+<li><strong>Diagnostic</strong> - why have we seen past results?</li>
+<li><strong>Predictive</strong> - what will happen in the future?
+<ul>
+<li><strong>Regression</strong> - can I predict a numerical value?</li>
+<li><strong>Classification</strong> - can I predict the likelihood?</li>
+<li><strong>Clustering</strong> - can I find common groups?</li>
+<li><strong>Association</strong> - what goes together?</li>
+</ul></li>
+<li><strong>Prescriptive</strong> - how should we take action?</li>
+<li><strong>Generative</strong> - how can we action upon nondeterministic tasks?</li>
 </ul>
+</blockquote>
+<ol start="2" type="1">
+<li>Are there any analyses you would want to make that would require additional data? What are those?</li>
+</ol>
+</section>
+<section id="scenario-for-the-full-team" class="level1">
+<h1>Scenario for the full team</h1>
+<section id="healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="healthcare">Healthcare</h2>
+<p>You are a leader at a nonprofit organization focused on providing healthcare services to underserved populations. Your organization is planning to launch a new mobile health clinic, but you are unsure about the best locations to deploy it.</p>
+<p>The data you have access to includes the following:</p>
+<ul>
+<li>Historical electronic health record data</li>
+<li>Community demographic and socioeconomic data</li>
+<li>Transportation accessibility data</li>
+<li>Healthcare infrastructure data</li>
+</ul>
+</section>
+</section>
+<section id="try-this-scenario-yourself" class="level1">
+<h1>Try this scenario yourself</h1>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p>You are a leader at a nonprofit organization focused on providing educational resources to underprivileged children. Recently, you’ve noticed a decline in student engagement and attendance in your after-school programs.</p>
+<p>The data you have access to includes the following:</p>
+<ul>
+<li>Attendance records</li>
+<li>Daily activity schedules</li>
+<li>Satisfaction survey data for activities</li>
+</ul>
+</section>
+</section>
 
 </main>
 <!-- /main column -->

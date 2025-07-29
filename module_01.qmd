@@ -1,0 +1,49 @@
+---
+editor: source
+toc: true
+title-block-banner: "#0057b8"
+subtitle: Cohort 2.0
+---
+
+# Module 1: What is possible?
+
+You will be provided with a scenario in which a nonprofit organization needs to make a decision about a challenge it is facing. Consider the types of analysis (descriptive, diagnostic, predictive, prescriptive, and generative) that we discussed.
+
+Discuss these questions for the scenario:
+
+1. What types of analysis would you make with the data available to you?
+
+>  * **Descriptive** - what have we done in the past?
+>  * **Diagnostic** - why have we seen past results?
+>  * **Predictive** - what will happen in the future?
+>    * **Regression** - can I predict a numerical value?
+>    * **Classification** - can I predict the likelihood?
+>    * **Clustering** - can I find common groups?
+>    * **Association** - what goes together?
+>  * **Prescriptive** - how should we take action?
+>  * **Generative** - how can we action upon nondeterministic tasks?
+  
+2. Are there any analyses you would want to make that would require additional data? What are those?
+
+# Scenario for the full team
+
+## Healthcare
+You are a leader at a nonprofit organization focused on providing healthcare services to underserved populations. Your organization is planning to launch a new mobile health clinic, but you are unsure about the best locations to deploy it. 
+
+The data you have access to includes the following:
+
+* Historical electronic health record data
+* Community demographic and socioeconomic data
+* Transportation accessibility data
+* Healthcare infrastructure data
+
+# Try this scenario yourself
+
+## Education
+You are a leader at a nonprofit organization focused on providing educational resources to underprivileged children. Recently, you've noticed a decline in student engagement and attendance in your after-school programs.
+
+The data you have access to includes the following:
+
+* Attendance records
+* Daily activity schedules
+* Satisfaction survey data for activities

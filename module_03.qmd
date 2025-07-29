@@ -1,0 +1,12 @@
+---
+editor: source
+toc: true
+title-block-banner: "#0057b8"
+subtitle: Cohort 2.0
+echo: false
+warning: false
+---
+
+# Module 3: How can you be a good data steward?
+
+Content coming soon
