@@ -27,3 +27,19 @@ warning: false
 Consider the ethical issues that the [healthcare nonprofit](module_01.html#healthcare) might need to consider as part of their work.
 
 Which are most pressing? Why?
+
+## Data Governance
+
+### Key Questions to Consider
+
+1. How does data flow through our organization?
+2. How is our data collected and stored?
+3. How do we ensure that our data is high quality?
+4. Who has access to our data?
+5. What security protocols are in place to protect our data?
+6. How are we considering policies and regulations that impact our data?
+7. How are we empowering and educating our employees and volunteers?
+
+### Activity
+
+Consider the [education scenario](module_01.html#education). Reflect upon how you would address the key data governance questions as it relates to their needs. Address each of the questions as best as you can.
