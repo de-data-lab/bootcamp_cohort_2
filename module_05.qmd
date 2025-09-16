@@ -9,4 +9,14 @@ warning: false
 
 # Module 5: How do you build a data driven organization?
 
-Content coming soon
+### Activity
+
+We will begin to develop your wish list towards the beginnings of developing your data strategy.
+
+In your respective teams, you will be doing the following:
+
+1. First, add every single goal you would like to accomplish as a data-driven organization ​
+2. Once all your goals are listed, rank them from least to most feasible (score of 1) ​
+3. Once ranked for feasibility, next rank them from least to most impactful (score of 1) ​
+4. Next add the scores for feasibility and impact (you might end up with ties!) ​
+5. Meet back in main room! Be ready to share your top 3 overall priorities.
